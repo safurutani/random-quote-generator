@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+html {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  width: 100%;
+}
+#title-bar {
+  background-color: SteelBlue;
+  positon: absolute;
+  top: 0;
+  left: 0;
+  margin-right: -15px;
+  margin-top: -29px;
+  margin-left: -15px;
+}
+h1 {
+  font-family: "Sigmar";
+  color: #f7ea48;
+  padding: 10px;
+  border-radius: 15px;
+}
+#root {
+  height: 200px;
+}
+#quote-box{
+  margin: auto;
+  top: 15%;
+  position: relative;
+  width: 500px;
+  height: 312px;
+  background: white;
+  padding: 50px;
+  border-radius: 15px;
+}
+#author, #text, h1 {
+  text-align: center;
+}
+#clickables {
+  display: flex;
+  justify-content: space-between;
+  width: 82%;
+  position: absolute;
+  margin-bottom: 50px;
+  bottom: 0;
+}
+#words {
+  height: 86%;
+}
+#author {
+  position: absolute;
+  bottom: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+#text, #author, #clickables {
+  font-family: Catamaran;
+  font-size: 26px;
+}
+#tweet-quote, #new-quote {
+  font-family: Catamaran;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  box-shadow: 1px 2px 4px gray;
+  padding: 4px;
+  border-radius: 4px;
+}
+button {
+  border-style: none;
+  padding: 4px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 4px gray;
+}
+button:hover {
+  cursor: pointer;
+}
